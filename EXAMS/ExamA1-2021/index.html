@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Salad-Bar</title>
+        <link rel="shortcut icon" href="../ExamA1-2021/favicon.ico" type="image/x-icon"/>
+        <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/js/all.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Salad-Bar</h1>
+            <!--burger menu-->
+                <nav class="main-navigation">
+                    <div class="nav-wrapper">
+                        <input type="checkbox" class="menu-checkbox" />
+                        <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+                        <label for="menu-checkbox" class="menu-toggle"><i class="fas fa-bars"></i></label>
+                        <ul class="menu">
+                            <li><a href="#">Acceuil</a></li>
+                            <li><a href="#">Bowl sur mesure</a></li>
+                            <li><a href="#">Boissons</a></li>
+                        </ul>
+                    </div> 
+                </nav>
+        </header>
+        <main>
+            <section id="ingredients" class="container">
+                <h2>1. Choisissez la base de votre bowl <span>0/6</span></h2>
+                <div>
+                    <img src="img/base_epinards.jpg" alt="epinards">
+                    <p>Pousses d'épinards</p>
+                </div>
+                <div>
+                    <img src="img/base_riz.jpg" alt="riz">
+                   <p>Riz de Camargue Bio</p>
+                </div>
+                <div>
+                    <img src="img/base_quinoa.jpg" alt="quinoa">
+                    <p>Quinoa Royal tricolore</p>
+                </div>
+                <!--2nd column-->
+                <div>
+                    <img src="img/base_pousses.jpg" alt="salade">
+                    <p>Pousses de salades</p>
+                </div>
+                <div>
+                    <img src="img/base_pates.jpg" alt="pâtes bio">
+                    <p>Pâtes Bio sans Gluten</p>
+                </div>
+                 <div>
+                    <img src="img/base_mache.jpg" alt="mache">
+                    <p>Pousses de mache</p>
+                 </div>
+            </section>
+
+            <section id="bowl" class="container">
+                <h2>Votre bowl</h2>
+                <article class="cart">
+                    <p><span>0</span> ingrédients</p>
+                    <h3>Total 8,5€</h3>
+                    <a class="cta" href="#">Valider</a>
+                </article>
+
+                <div>
+                    <p>Mixez jusqu'à <span>3 ingrédients inclus</span> pour la base de votre bowl.</p>
+                </div>
+                <div>
+                    <p><span>Vous prenez un seul ingrédient ? </span><br> il sera ajouté en double à votre bowl</p>
+                </div>
+                <div>
+                    <p><span>Vous prenez seulement 2 ingrédients ?</span><br> une remise de 1€50 sera appliquée sur la valeur total de votre bowl.</p>
+                </div>
+                <div>
+                    <p><span>Vous prenez plus de 3 ingrédients ?</span><br> un supplément de 1€50 sera appliqué par ingrédient supplémentaire.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <small>Eval EdenSchool - good luc, folks !</small>
+        </footer>
+    </body>
+
+
+</html>
